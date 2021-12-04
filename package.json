@@ -1,0 +1,21 @@
+{
+  "name": "bot-volunteer-faq",
+  "version": "1.0.0",
+  "description": "Telegram bot for explaining FAQ to volunteers who work in the reserve.",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index --presets=env",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LAR Team (WildHack)",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "dotenv": "^10.0.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "node-telegram-bot-api": "^0.54.0"
+  }
+}
